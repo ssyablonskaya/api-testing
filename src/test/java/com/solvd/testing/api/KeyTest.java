@@ -1,4 +1,4 @@
-package com.solvd.apitesting;
+package com.solvd.testing.api;
 
 import org.testng.annotations.Test;
 
@@ -7,7 +7,7 @@ public class KeyTest {
     @Test
     public void verifyAuthKeyTest() {
         GetAuthKeyMethod getAuthKeyMethod = new GetAuthKeyMethod();
-        getAuthKeyMethod.setHeaders(String.format("Authorization=%s", "token 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"));
+        getAuthKeyMethod.setHeaders(String.format("Authorization=%s", "token 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"));
         getAuthKeyMethod.callAPI();
         getAuthKeyMethod.validateResponse();
     }
