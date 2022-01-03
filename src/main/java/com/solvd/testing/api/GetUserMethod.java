@@ -15,6 +15,7 @@ public class GetUserMethod extends AbstractApiMethodV2 {
 
     public GetUserMethod() {
         replaceUrlPlaceholder("base_url", Configuration.getEnvArg("api_url"));
+        setProperties("user/get/user.properties");
     }
 
 }

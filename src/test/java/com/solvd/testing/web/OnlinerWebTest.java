@@ -19,6 +19,7 @@ import java.util.Locale;
 
 public class OnlinerWebTest implements IAbstractTest {
 
+
     @Test
     public void verifyGamesFilterTest() {
         GamesProductPage gamesProductPage = new GamesProductPage(getDriver());
@@ -31,7 +32,6 @@ public class OnlinerWebTest implements IAbstractTest {
                 .findFirst()
                 .orElseThrow(() -> new RuntimeException("Unable to find filter with label \"PlayStation 5\""))
                 .clickCheckbox();
-
 
         /*Wait<WebDriver> wait = new WebDriverWait(getDriver(), 10);
         wait.until(driver -> !driver.findElement(By.xpath(".//*[contains(@class, 'state_animated')])")).isDisplayed());*/

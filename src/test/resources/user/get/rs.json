@@ -1,5 +1,5 @@
 {
-  "login": "syablonskaya",
+  <#if login??> "login": ${login}, </#if>
   "id": 92909994,
   "node_id": "U_kgDOBYmxqg",
   "avatar_url": "https://avatars.githubusercontent.com/u/92909994?v=4",
@@ -34,7 +34,7 @@
   "private_gists": 0,
   "total_private_repos": 0,
   "owned_private_repos": 0,
-  "disk_usage": 494,
+  "disk_usage": 502,
   "collaborators": 0,
   "two_factor_authentication": false,
   "plan": {

@@ -3,7 +3,7 @@
     "id": 58349331,
     "key": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIAfDzqc6IWSgTq7vloK9u1xuWgEbaJbzZ083t9YTB7OK",
     "url": "https://api.github.com/user/keys/58349331",
-    "title": "Home Lenovo ssh",
+    <#if title??> "title": ${title}, </#if>
     "verified": true,
     "created_at": "2021-10-23T19:44:27Z",
     "read_only": false

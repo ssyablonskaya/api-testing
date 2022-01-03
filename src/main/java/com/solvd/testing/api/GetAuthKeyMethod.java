@@ -15,6 +15,7 @@ public class GetAuthKeyMethod extends AbstractApiMethodV2 {
 
     public GetAuthKeyMethod() {
         replaceUrlPlaceholder("base_url", Configuration.getEnvArg("api_url"));
+        setProperties("keys/get/key.properties");
     }
 
 }
