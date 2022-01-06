@@ -7,7 +7,7 @@ import org.openqa.selenium.support.FindBy;
 
 import java.util.List;
 
-public class FilterBlock extends AbstractUIObject { //GOTOVO?
+public class FilterBlock extends AbstractUIObject {
 
     @FindBy(xpath = ".//label[contains(@class, 'checkbox-item')]")
     private List<FilterBlockItem> filterBlockItems;

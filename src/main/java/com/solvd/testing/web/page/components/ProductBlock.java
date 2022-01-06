@@ -6,7 +6,7 @@ import org.openqa.selenium.SearchContext;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.FindBy;
 
-public class ProductBlock extends AbstractUIObject { //GOTOVO
+public class ProductBlock extends AbstractUIObject {
 
     @FindBy(xpath = ".//*[contains(@class, 'title')]/a//span")
     private ExtendedWebElement titleText;

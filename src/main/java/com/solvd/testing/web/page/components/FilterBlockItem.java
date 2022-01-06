@@ -6,7 +6,7 @@ import org.openqa.selenium.SearchContext;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.FindBy;
 
-public class FilterBlockItem extends AbstractUIObject { //GOTOVO? (mb input net)
+public class FilterBlockItem extends AbstractUIObject {
 
     @FindBy(xpath = ".//input[@type='checkbox']")
     private ExtendedWebElement checkbox;
@@ -23,7 +23,7 @@ public class FilterBlockItem extends AbstractUIObject { //GOTOVO? (mb input net)
     }
 
     public void clickCheckbox() {
-        this.checkbox.check();
+        this.checkbox.click();
     }
 
     public ExtendedWebElement getLabelText() {
