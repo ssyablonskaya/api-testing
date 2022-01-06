@@ -1,0 +1,1 @@
+cmd.exe /k java -Dwebdriver.chrome.driver=D:\sveta12\Work\apps\selenium\chromedriver.exe -jar D:\sveta12\Work\apps\selenium\selenium-server-standalone-3.9.1.jar
